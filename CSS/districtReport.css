@@ -70,11 +70,27 @@ tr:hover {
     border-radius: 10px;
 }
 
-#table_header {
+#table_header:hover {
     transform: scale(1);
     box-shadow: 0;
 }
 
 section {
     margin: 50px;
+}
+
+.state_container h2 {
+    display: block;
+    font-size: 20px;
+}
+
+.state_container {
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    table {
+        width: 90%;
+    }
 }
