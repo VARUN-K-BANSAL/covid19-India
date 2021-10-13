@@ -32,51 +32,6 @@ header nav h1 a {
     color: #fff;
 }
 
-.card_container {
-    justify-content: space-around;
-    padding-left: 15%;
-    padding-right: 15%;
-    display: flex;
-}
-
-.card {
-    margin: 20px;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    align-items: center;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-.card_container .card p{
-    padding: 10px;
-    color: #000;
-    font-size: 23px;
-    font-weight: bold;
-}
-
-.card_container .confirmed_card:hover {
-    background-color: rgb(154, 198, 255);
-    border-radius: 10px;
-}
-
-.card_container .death_card:hover {
-    background-color: rgb(255, 157, 157);
-    border-radius: 10px;
-}
-
-.card_container .recovered_card:hover {
-    background-color: rgb(153, 255, 153);
-    border-radius: 10px;
-}
-
-.card h2 {
-    font-size: 18px;
-    font-weight: light;
-    margin-top: 20px;
-}
-
 .table_main {
     margin: auto;
     width: 50%;
@@ -118,32 +73,6 @@ tr:hover {
 #table_header {
     transform: scale(1);
     box-shadow: 0;
-}
-
-.btnDiv {
-    width: 50%;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.districtReportBtn {
-    background-color: rgb(25, 168, 44);
-    font-size: 20px;
-    padding: 10px;
-    border: none;
-    text-align: center;
-    width: auto;
-    border-radius: 10px;
-}
-
-.districtReportBtn a{
-    text-decoration: none;
-    color: #000;
-}
-
-.districtReportBtn:hover{
-    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3), -1px 1px 8px rgba(0, 0, 0, 0.3);
 }
 
 section {
