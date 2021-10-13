@@ -14,7 +14,6 @@ $(document).ready(function () {
 
     $('#state').change(function () {
         var stateName = $(this).children("option:selected").text();
-
         $.getJSON(summaryAPI, function (data) {
             // console.log(data);
             // removing the rows except the first heading
