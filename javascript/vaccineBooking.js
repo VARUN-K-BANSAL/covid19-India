@@ -1,3 +1,0 @@
-function generateOTP() {
-    $(".number").getText
-}
